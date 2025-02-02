@@ -1,0 +1,31 @@
+library:
+  STOCK: "books/stock" # Book stock
+
+genres:
+  TREE_FILE: "config/genres.xml"
+
+database:
+  DSN: "dbdata/books.db"
+  POLL_DELAY: 300 
+  MAX_SCAN_THREADS: 10
+  BOOK_QUEUE_SIZE: 20000
+  FILE_QUEUE_SIZE: 20000
+  MAX_BOOKS_IN_TX: 20000
+  DEDUPLICATE_LEVEL: "F"
+
+logs:
+  OPDS: "logs/opds.log"
+  SCAN: "logs/scan.log"
+  LEVEL: "W" 
+
+opds:
+  PORT: 8085
+  TITLE: "Qwen OPDS Server"
+  PAGE_SIZE: 20
+  LATEST_DAYS: 14
+  NO_CONVERSION: false
+
+locales:
+  DIR: "config/locales"
+  DEFAULT: "en"
+  ACCEPTED: "en, ru, uk"

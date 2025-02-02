@@ -1,0 +1,12 @@
+<genres>
+  <genre id="1">
+    <genre-descr lang="en" title="Fantasy"/>
+    <genre-descr lang="ru" title="Фэнтези"/>
+    <genre-descr lang="uk" title="Фентезі"/>
+  </genre>
+  <genre id="2">
+    <genre-descr lang="en" title="Science Fiction"/>
+    <genre-descr lang="ru" title="Научная фантастика"/>
+    <genre-descr lang="uk" title="Наукова фантастика"/>
+  </genre>
+</genres>
