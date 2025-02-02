@@ -1,5 +1,5 @@
 library:
-  STOCK: "books/stock" # Book stock
+  STOCK: "books" # Book stock
 
 genres:
   TREE_FILE: "config/genres.xml"
